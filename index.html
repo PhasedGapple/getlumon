@@ -53,8 +53,11 @@
 </div>
 
     <script>
-  document.body.innerHTML = document.body.innerHTML.replace(/Introducing, Lumon/g, '/Introducing, Assmoon');
+  document.addEventListener("DOMContentLoaded", function() {
+    document.body.innerHTML = document.body.innerHTML.replace(/Old Text/g, 'New Text');
+  });
 </script>
+
     <!-- Start of bodyEnd -->
     
     <!-- End of bodyEnd -->
